@@ -1,0 +1,4 @@
+This is Lingua::EN::Numbers::Years, a module for converting
+years-numbers into their English equivalents, like turning 1984 into
+"nineteen eighty-four" (as opposed to "one thousand nine hundred and
+eighty-four").
