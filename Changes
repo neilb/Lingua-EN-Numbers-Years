@@ -2,6 +2,7 @@ Revision history for Perl module Lingua::EN::Numbers::Years
 
 1.01_01 2014-05-16
     - Added "use warnings" and switched to use of 'our' rather than 'use vars'.
+    - Switched to Dist::Zilla
     - Renamed ChangeLog as Changes, and reformatted as per CPAN::Changes::Spec
 
 1.01 2005-01-06 SBURKE
