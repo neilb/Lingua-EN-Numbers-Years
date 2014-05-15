@@ -9,8 +9,6 @@ use Lingua::EN::Numbers 1.01 qw(num2en);
 require Exporter;
 our @ISA = qw(Exporter);
 
-our $VERSION = '1.01_01';
-
 my $T    = 'thousand';
 my $H    = 'hundred';
 my $Oh   = 'oh';
@@ -140,6 +138,10 @@ Note that C<year2en> doesn't try to append "BC" or "AD".
 L<Lingua::EN::Numbers>
 
 L<Lingua::EN::WordsToNumbers>
+
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/Lingua-EN-Numbers-Years>
 
 =head1 COPYRIGHT
 
