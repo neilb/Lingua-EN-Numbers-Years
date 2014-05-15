@@ -1,19 +1,26 @@
-
-require 5;  # Time-stamp: "2005-01-05 18:20:32 AST"
 package Lingua::EN::Numbers::Years;
-require Exporter;
-@ISA = qw(Exporter);
+
+use 5.006;
 use strict;
+use warnings;
+
 use Lingua::EN::Numbers 1.01 qw(num2en);
 
-use vars qw( @EXPORT @EXPORT_OK $VERSION %DD %D %OhDD    $T $H $Oh $Zero);
-$T  = "thousand";
-$H  = "hundred";
-$Oh = "oh";
-$Zero = "zero";
+require Exporter;
+our @ISA = qw(Exporter);
 
-$VERSION = '1.01';
-@EXPORT    = qw(year2en);
+our $VERSION = '1.01_01';
+
+my $T    = 'thousand';
+my $H    = 'hundred';
+my $Oh   = 'oh';
+my $Zero = 'zero';
+my %DD;
+my %OhDD;
+my %D;
+
+our @EXPORT    = qw(year2en);
+
 BEGIN { *DEBUG = sub () {0} unless defined &DEBUG } # setup a DEBUG constant
 
 #--------------------------------------------------------------------------
