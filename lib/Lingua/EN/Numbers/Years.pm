@@ -141,7 +141,7 @@ L<Lingua::EN::WordsToNumbers>
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/Lingua-EN-Numbers-Years>
+L<https://github.com/neilb/Lingua-EN-Numbers-Years>
 
 =head1 COPYRIGHT
 
