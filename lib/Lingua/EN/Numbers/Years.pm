@@ -116,9 +116,10 @@ It exports one function, C<year2en>, which takes a scalar value
 and returns a scalar value.  The return value is the English text expressing that 
 year-number; or if what you provided wasn't a number, then it returns undef.
 
-Unless the input is an at-most five-digit integer (with commas allowed), then
-C<year2en> just returns C<Lingua::EN::Number::num2en(I<value>)>, as a reasonable
-fall-through.
+Unless the input is an at-most five-digit integer (with commas allowed),
+then C<year2en> just returns C<num2en(I<value>)>
+(C<num2en> is a function provided by L<Lingua::EN::Numbers>),
+as a reasonable fall-through.
 
 =head1 NOTES
 
