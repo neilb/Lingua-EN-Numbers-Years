@@ -137,7 +137,7 @@ Note that C<year2en> doesn't try to append "BC" or "AD".
 
 L<Lingua::EN::Numbers>
 
-L<Lingua::EN::WordsToNumbers>
+L<Lingua::EN::Words2Nums>
 
 =head1 REPOSITORY
 
