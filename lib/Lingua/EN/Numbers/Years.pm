@@ -136,9 +136,13 @@ Note that C<year2en> doesn't try to append "BC" or "AD".
 
 =head1 SEE ALSO
 
-L<Lingua::EN::Numbers>
+L<Lingua::EN::Numbers> - more general purpose module for turning
+numbers into English text.
 
-L<Lingua::EN::Words2Nums>
+L<Lingua::EN::Words2Nums> - another general purpose module
+for converting numbers into English text.
+I'd recommend using the previous module.
+
 
 =head1 REPOSITORY
 
